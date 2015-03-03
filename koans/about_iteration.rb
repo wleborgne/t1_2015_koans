@@ -60,7 +60,7 @@ class AboutIteration < Neo::Koan
 
     # NOTE: 'map' is another name for the 'collect' operation
     another_array = array.map { |item| item + 10 }
-    assert_equal __, another_array
+    assert_equal [11, 12, 13], another_array
   end
 
   def test_select_selects_certain_items_from_an_array
